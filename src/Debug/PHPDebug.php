@@ -7,20 +7,20 @@ class PHPDebug
     static protected function init()
     {
         $css = "<style>
-    .flex-container {
-      display: flex;
-      background-color: DodgerBlue;
-    }
+            .flex-container {
+                display: flex;
+                background-color: DodgerBlue;
+            }
     
-    .flex-container > div {
-      background-color: #f1f1f1;
-      margin: 2px;
-      padding: 5px;
-      font-size: 19px;
-    }
-    </style>";
+            .flex-container > div {
+                background-color: #f1f1f1;
+                margin: 2px;
+                padding: 5px;
+                font-size: 19px;
+            }
+        </style>";
 
-        $js = "    function toggle(tag, display) {
+        $js = "function toggle(tag, display) {
           if (display == 'none') {
                   tag.style.display = 'block';
               }
