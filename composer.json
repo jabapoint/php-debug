@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Debug\\": "src/jabapoint/php-debug"
+            "Debug\\": "jabapoint/php-debug/src"
         }
     },
     "extra": {
