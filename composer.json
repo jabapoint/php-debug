@@ -2,17 +2,22 @@
     "name": "jabapoint/php-debug",
     "description": "Displaying variables in the browser window and in the developer console.",
     "type": "library",
-    "require": {
-	"php": ">=7.1",
-        "psr/log": "^1.0"
-    },
     "license": "MIT",
     "authors": [
         {
             "name": "Sergey Novozhilov",
             "email": "sergionov@mail.ru"
         }
-    ],
+    ],	
+    "require": {
+	"php": ">=7.1",
+        "psr/log": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DebugBar\\": "src/DebugBar/"
+        }
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "0.7-dev"
