@@ -1,6 +1,6 @@
 <?php
 
-namespace Debug;
+namespace Jabapoint\Debug;
 
 class Debug
 {
