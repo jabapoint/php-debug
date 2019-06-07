@@ -1,8 +1,8 @@
 <?php
 
-namespace Jabapoint\Debug;
+namespace Debug;
 
-class Debug
+class PHPDebug
 {
     static protected function init()
     {
