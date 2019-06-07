@@ -1,7 +1,7 @@
 {
     "name": "jabapoint/php-debug",
     "description": "Displaying variables in the browser window and in the developer console.",
-    "type": "PHP debug",
+    "type": "library",
     "require": {
 	"php": ">=7.1",
         "psr/log": "^1.0"
