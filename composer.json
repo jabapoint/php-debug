@@ -3,7 +3,8 @@
     "description": "Displaying variables in the browser window and in the developer console.",
     "type": "PHP debug",
     "require": {
-        "psr/log": "1.0"
+	"php": ">=7.1",
+        "psr/log": "^1.0"
     },
     "license": "MIT",
     "authors": [
